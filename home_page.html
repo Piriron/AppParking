@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style2.css">
+
+
+    <title>pAPPrking</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Tarifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Estacionamiento</a>
+                    </li>
+
+                </ul>
+                <a class="btn me-2 btn-primary" href="login.html" title="Cerrar Sesion">Cerrar Sesion</a>
+            </div>
+        </div>
+    </nav><!-- //NAVBAR -->
+
+    <!-- HERO -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1 class="display-4 text-white">Te estamos esperando</h1>
+                    <p class="text-white my-3">Agenda tu estacionamiento, no le des mas vuelta</p>
+                    <a href="reserva.html" class="btn me-2 btn-primary">Agenda ya!</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- //HERO -->
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Servicios</h6>
+                    <h1>Nuestros Servicios</h1>
+                    <p>Administra tu estacionamiento en cualquier parte en donde te encuentres ademas de poder ver en linea la cantidad de tiempo que lleva transcurrido desde que arrienda su lugar</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect bounceInUp">
+                        <div class="iconbox">
+                            <i class='bx bxs-check-shield'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">POR HORA</h5>
+                        <p>Reserva por una o más horas que no superen las 4 horas</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect bounceInUp">
+                        <div class="iconbox">
+                            <i class='bx bxs-check-shield'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">MEDIA JORNADA</h5>
+                        <p>Reserva por media jornada lo que equivale a 5 o 6 horas aproximadamente.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect bounceInUp">
+                        <div class="iconbox">
+                            <i class='bx bxs-check-shield'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">JORNADA COMPLETA</h5>
+                        <p>Reserva por un día completo lo que equivale a 8 a 10 horas aproximadamente.</p>
+                    </div>
+                </div>
+            </div>
+    </section><!-- SERVICIOS -->
+
+     <!-- PRICING -->
+     <section id="pricing" class="bg-light">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Tarifa</h6>
+                    <h1>Secciones de planes</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="pricing card-effect ">
+                        <h6>NORTE</h6>
+                        <hr>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Por hora ($1.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Media jornada ($7.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Jornada Completa ($15.990)</li>
+                        </ul>
+                        <button class="btn btn-primary">Comienza</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="pricing card-effect ">
+                        <h6>CENTRO</h6>
+                        <br>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Por hora ($1.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Media Jornada ($7.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Jornada Completa ($15.990)</li>
+                        </ul>
+                        <button class="btn btn-primary">Comienza</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="pricing card-effect ">
+                        <h6>SUR</h6>
+                        <hr>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Por hora ($1.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Media Jornada ($7.990)</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Jornada Completa ($15.990)
+                        </ul>
+                        <button class="btn btn-primary">Comienza</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- PRICING -->
+
+
+    <!-- ESTACIONAMIENTO -->
+    <section id="blog" class="bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>Estacionamiento</h1>
+                    <p>Nuestros estacionamientos están estratégicamente ubicados en la capital y mejoran la calidad de vida aportando soluciones para el desarrollo continuado de los estacionamientos nacionales</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <h7>Estacionamiento norte</h7>
+                        <img src="img/gps.jpg" alt="">
+                        <h5 class="mt-4"><a href="#">Señalizacion al interior del recinto para manejar un orden de los clientes.</a></h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <h7>Estacionamiento centro</h7>
+                        <img src="img/blog1.png" alt="">
+                        <h5 class="mt-4"><a href="#">Ubicacion centrada para que las personas esten cerca de sus trabajos.</a></h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <h7>Estacionamiento sur</h7>
+                        <img src="img/gps2.jpg" alt="">
+                        <h5 class="mt-4"><a href="#">Contamos con una infraestructura de calidad para nuestros clientes.</a></h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- ESTACIONAMIENTO -->
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <img class="logo" src="img/logo2.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="text-white">Menu</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#services">Servicios</a></li>
+                            <li><a href="#blog">Estacionamiento</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="text-white">Contacto</h5>
+                        <ul class="list-unstyled">
+                            <li>Direccion: 7278 Ash Dr. Maule, Talca 3480094</li>
+                            <li>Email: pAPPrking@example.com</li>
+                            <li>Telefono: (+56) 912345678</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">© 2022 copyright all right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
